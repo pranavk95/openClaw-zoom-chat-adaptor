@@ -1,0 +1,26 @@
+{
+  "name": "@openclaw/zoom",
+  "version": "2026.4.16",
+  "description": "OpenClaw Zoom Team Chat channel plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "channel": {
+      "id": "zoom",
+      "label": "Zoom",
+      "selectionLabel": "Zoom Team Chat",
+      "docsPath": "/channels/zoom",
+      "docsLabel": "zoom",
+      "blurb": "Zoom Team Chat via Team Chat Bot API.",
+      "order": 45,
+      "quickstartAllowFrom": true
+    },
+    "install": {
+      "npmSpec": "@openclaw/zoom",
+      "localPath": "extensions/zoom",
+      "defaultChoice": "local"
+    }
+  }
+}
